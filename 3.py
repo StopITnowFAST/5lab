@@ -2,9 +2,15 @@
 # дневную норму на 10% от нормы предыдущего дня. Какой суммарный путь пробежит
 # спортсмен за 7 дней?
 
-allKm = 10
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-for i in range(6):
-    allKm += allKm * 0.1
+
+if __name__ == '__main__':
+
+    allKm = 10
+
+    for i in range(6):
+        allKm += allKm * 0.1
     
-print(allKm)
+    print(allKm)
