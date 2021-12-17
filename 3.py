@@ -7,9 +7,9 @@
 
 if __name__ == '__main__':
 
-    allKm = 10
+    all_km = 10
 
-    for i in range(6):
-        allKm += allKm * 0.1
+    for i in range(7):
+        all_km += all_km * 0.1
     
-    print(allKm)
+    print(all_km)
