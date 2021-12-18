@@ -11,5 +11,5 @@ if __name__ == '__main__':
 
     for i in range(7):
         all_km += all_km * 0.1
-    
+
     print(all_km)
