@@ -5,9 +5,9 @@
 
 if __name__ == '__main__':
 
-    a = input("enter number - a")
-    b = input("enter number - b")
-    c = input("enter number - c")
+    a = int(input("enter number - a"))
+    b = int(input("enter number - b"))
+    c = int(input("enter number - c"))
 
     if(abs(a) > 4):
         print(a)

@@ -7,7 +7,7 @@
 
 if __name__ == '__main__':
 
-    m = input("enter day")
+    m = int(input("enter day"))
 
     if (m > 0 and m < 8):
         if (m == 1):
@@ -24,3 +24,5 @@ if __name__ == '__main__':
             print("Суббота")
         if (m == 7):
             print("Воскресенье")
+    else:
+        print("not found!")
