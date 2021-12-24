@@ -4,9 +4,11 @@
 # Дано число m (1 < m < 7). Вывести на экран название дня недели, который соответствует
 # этому номеру
 
+import sys
+
 if __name__ == '__main__':
 
-    m = int(input("enter day"))
+    m = 0
 
     if (m > 0 and m < 8):
         if (m == 1):
@@ -24,4 +26,5 @@ if __name__ == '__main__':
         if (m == 7):
             print("Воскресенье")
     else:
-        print("not found!")
+        print("Ошибка!", file=sys.stderr)
+        exit(1)
